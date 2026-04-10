@@ -12,11 +12,11 @@ Ce document répertorie les scénarios de test critiques utilisés pour valider 
 
 ## 2. Algorithme de Scoring et Proximité
 
-| ID | Scénario | Comportement Attendu | Statut |
+| ID | Scénario | Logique de Calcul / Arbitrage | Statut |
 | :--- | :--- | :--- | :--- |
-| **TS-04** | **Gestion du "No Match"** | Si aucun produit ne correspond à 100%, l'algorithme calcule un score de proximité et affiche les 3 meilleures alternatives avec une mention des écarts. | Validé |
-| **TS-05** | **Neutralité des Données** | Les produits possédant la valeur `INCONNU` sur un critère optionnel ne sont pas pénalisés. Ils restent éligibles au scoring de base pour maximiser le catalogue. | Validé |
-| **TS-06** | **Nudges Techniques** | Application de bonus de points (+4 à +8) sur des critères secondaires (Sensation, Réversibilité) pour départager deux produits de rang équivalent. | Validé |
+| **TS-04** | **Gestion du "No Match"** | Si aucun produit ne correspond à 100%, l'algorithme calcule un score de proximité et génère une note explicative listant les écarts (ex: budget, certification) via des puces descriptives. | Validé |
+| **TS-05** | **Neutralité des Données** | Les valeurs `INCONNU` sur des critères optionnels ne pénalisent pas le produit pour maximiser la profondeur du catalogue et éviter les exclusions injustifiées. | Validé |
+| **TS-06** | **Départage Business** | En cas d'égalité de score entre deux références, l'arbitrage final est automatisé via un **Coefficient de Popularité** (basé sur l'historique de performance commerciale du modèle). | Validé |
 
 ## 3. Cas Particulier : Mode Polyvalent
 
