@@ -64,3 +64,12 @@ Une phase de tests rigoureux a été menée pour valider la fiabilité des recom
 * `/data` : Matrice de données TSV (données anonymisées).
 * `/src` : Code source du moteur (HTML/JS/CSS).
 * `/docs` : Documentation de la logique de pondération et comptes-rendus de tests.
+
+## Aperçu de l'interface
+
+<p align="center">
+  <img src="formulaire-1.png" width="45%" alt="État initial du formulaire" />
+  <img src="formulaire-2.png" width="45%" alt="Résultats de la recommandation" />
+</p>
+
+> **Note :** L'interface est optimisée pour la conversion avec un parcours utilisateur en 3 étapes clés, suivi d'un moteur de scoring pondéré par la performance commerciale.
