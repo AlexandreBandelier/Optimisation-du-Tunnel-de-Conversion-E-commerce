@@ -1,0 +1,15 @@
+// Base de données produits anonymisée
+const KG_PRODUCTS_TSV = `Rang_valeur	Titre_produit	URL	Fabricant	Categories_site	Pratique	Prix_min_EUR	Prix_max_EUR	Niveau_objectif	Investissement	Certification_officielle	Label_titre	Sensation	Reversible_bicolore	Entretien_facile	Frequence_entrainement	Personnalisation_possible	Option_finition	Segment_enfant	Genre_cible	Matiere	Densite_textile
+1	Gamme Pro - Shield X1	#	TitanTech	Ligne Elite	Usage A	242.90	327.90	Expert / International	250€+	OUI	OUI	épais & rigide	NON	INCONNU	intensif	OUI	Indifférent	NON	UNISEXE	Composite Fibre	13 oz
+2	Gamme Pro - Wave V3	#	Zenith	Ligne Elite	Usage A	269.00	339.00	Expert / International	250€+	OUI	NON	INCONNU	INCONNU	INCONNU	INCONNU	INCONNU	Indifférent	NON	UNISEXE	Hybride Coton	INCONNU
+3	Expert Line - Master S1	#	AeroFlow	Ligne Performance	Usage A	111.90	143.90	Confirmé / Expert	100–180€	OUI	OUI	épais & rigide	NON	INCONNU	régulier à intensif	OUI	Indifférent	NON	UNISEXE	Coton Canvas	12 oz
+4	Club Series - Europa	#	Apex	Ligne Standard	Polyvalent	131.35	174.60	Loisir / Confirmé	100–180€	INCONNU	NON	équilibré	NON	INCONNU	régulier	OUI	Indifférent	NON	UNISEXE	Coton Canvas	INCONNU
+5	Junior Elite - Master J	#	AeroFlow	Ligne Espoir	Usage A	89.90	119.90	Débutant / Confirmé	-100€	OUI	OUI	épais & rigide	NON	INCONNU	régulier	OUI	Indifférent	OUI	UNISEXE	Coton Canvas	12 oz
+9	Expert Line - Ultra B1	#	TitanTech	Ligne Performance	Usage B	119.90	189.90	Expert / International	180–250€	OUI	OUI	équilibré	NON	INCONNU	régulier à intensif	OUI	Indifférent	NON	UNISEXE	Coton Canvas	10 oz
+12	Combo Pack Duo-Color	#	TitanTech	Ligne Modulaire	Usage A / Usage B	242.90	327.90	Expert / International	250€+	OUI	OUI	épais & rigide	OUI	INCONNU	intensif	OUI	Indifférent	NON	UNISEXE	Coton Canvas	13 oz
+13	Gamme Pro - Shield X1 (W)	#	TitanTech	Ligne Elite	Usage A	242.90	327.90	Expert / International	250€+	OUI	OUI	épais & rigide	NON	INCONNU	intensif	OUI	Indifférent	NON	FEMME	Coton Canvas	13 oz
+16	Expert Line - Zero-G	#	TitanTech	Ligne Performance	Usage B	149.90	199.90	Expert / International	180–250€	OUI	OUI	équilibré	NON	INCONNU	régulier à intensif	OUI	Indifférent	NON	UNISEXE	Coton Canvas	10 oz
+33	Junior League - Core V2	#	AeroFlow	Ligne Espoir	Usage B	99.90	129.90	Confirmé / Expert	100–180€	OUI	OUI	équilibré	NON	INCONNU	régulier	OUI	Indifférent	OUI	UNISEXE	Coton Canvas	10 oz
+36	Kinetic K1 - Reversible	#	AeroFlow	Ligne Performance	Usage B	159.90	209.90	Expert / International	180–250€	OUI	OUI	équilibré	OUI	INCONNU	régulier à intensif	OUI	Indifférent	NON	UNISEXE	Coton Canvas	10 oz
+50	UltraLight Air-Flow	#	Swift	Ligne High-Tech	Usage B	89.90	89.90	Confirmé / Expert	-100€	OUI	OUI	léger & respirant	NON	OUI	régulier	INCONNU	Indifférent	NON	UNISEXE	Micro-perforé	4 oz
+68	Starter Kit - Kodomo	#	Apex	Ligne Débutant	Usage B	35.90	54.90	Débutant / Confirmé	-100€	OUI	INCONNU	équilibré	NON	INCONNU	régulier	OUI	Indifférent	OUI	UNISEXE	Coton Canvas	10 oz`;
