@@ -49,12 +49,12 @@ Ce projet démontre une capacité à piloter des outils d'Intelligence Artificie
 
 Une phase de tests rigoureux a été menée pour valider la fiabilité des recommandations :
 * **Personas de Test :** Création de profils types contrastés (profil débutant à budget contraint vs profil expert à haute exigence technique).
-* **Vérification Ground Truth :** Comparaison systématique des sorties de l'algorithme avec les **recommandations théoriques** d'experts métier.
-* **Affinement Itératif :** Réajustement des poids de scoring suite aux tests pour optimiser la précision des résultats dans les cas limites.
+* **Vérification directe :** Comparaison systématique des sorties de l'algorithme avec les **recommandations théoriques** d'experts métier (en l'occurrence, mes connaissances).
+* **Optimisation Logique :** Affinement itératif des règles métier pour garantir la pertinence des résultats dans les cas complexes (ex : priorités absolues sur certains segments cibles ou exclusions strictes entre catégories incompatibles).
 
 ---
 
-## **Scalabilité et Impact**
+## **Optimisations Additionnelles**
 * **Évolutivité :** Le système est conçu pour intégrer de nouvelles références par **simple mise à jour de la matrice de données**, sans modification du code source.
 * **Transparence UX :** Utilisation d'indicateurs visuels de conformité pour expliquer la pertinence de la recommandation, favorisant la **confiance** et la **conversion**.
 
