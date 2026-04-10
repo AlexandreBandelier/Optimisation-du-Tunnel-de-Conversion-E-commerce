@@ -68,8 +68,9 @@ Une phase de tests rigoureux a été menée pour valider la fiabilité des recom
 ## Aperçu de l'interface
 
 <p align="center">
-  <img src="docs/formulaire-1.png" width="45%" alt="État initial du formulaire" />
-  <img src="docs/formulaire-2.png" width="45%" alt="Résultats de la recommandation" />
+  <img src="docs/formulaire-1.png" width="80%" alt="État initial du formulaire" />
+  <br><br>
+  <img src="docs/formulaire-2.png" width="80%" alt="Résultats de la recommandation" />
 </p>
 
 > **Note :** L'interface est optimisée pour la conversion avec un parcours utilisateur en 3 étapes clés, suivi d'un moteur de scoring pondéré par la performance commerciale.
